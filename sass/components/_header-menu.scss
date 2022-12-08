@@ -1,0 +1,27 @@
+.header-menu {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  margin-bottom: 583px;
+  & > li {
+    width: 25%;
+    padding: 13px 0;
+    border: 1px solid #fff;
+    &:nth-of-type(1) {
+      border-left: none;
+    }
+    &:nth-of-type(4) {
+      border-right: none;
+    }
+
+    & > a {
+      color: white;
+      transition-property: color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      &:hover {
+        color: black;
+      }
+    }
+  }
+}

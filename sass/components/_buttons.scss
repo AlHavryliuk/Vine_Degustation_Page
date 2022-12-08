@@ -1,0 +1,56 @@
+.header-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.header-button__vinecard {
+  width: 203px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  &:hover {
+    background-color: black;
+  }
+}
+
+.header-button__degustation {
+  width: 182px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  &:hover {
+    background-color: black;
+  }
+}
+
+.novelty-button {
+  width: 254px;
+  height: 50px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  &:hover {
+    background-color: black;
+  }
+}
+
+.degustation__button {
+  margin: 0 auto;
+  width: 100%;
+  background: transparent;
+  border: 1px solid white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(20px / 16px);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 90px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  &:hover {
+    background-color: $buttonColor;
+  }
+}

@@ -1,0 +1,15 @@
+.header__address {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  & > a {
+    color: $mainFontColor;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    &:hover {
+      color: black;
+    }
+  }
+}
